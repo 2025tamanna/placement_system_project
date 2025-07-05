@@ -1,0 +1,205 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background:white;
+}
+
+header {
+  background:rgb(202, 183, 137);
+  color: rgb(66, 66, 138);
+  padding: 10px;
+  text-align: center;
+  margin-top: 0px;
+
+}
+.lg{
+  padding-top: 30px;
+}
+#l1 {
+  height: 350px;
+  width: 300px;
+}
+#l2 {
+  height: 300px;
+  width: 350px;
+}
+#l3 {
+  height: 300px;
+  width: 300px;
+}
+header img{
+  margin-right: 1px;
+  margin-left: 0px;
+}
+nav a {
+  
+  margin: 0 10px;
+  color: rgb(66, 66, 138);
+  text-decoration: none;
+}
+
+main {
+  padding: 30px;
+  margin-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.notice-board {
+  position: relative;
+  bottom: 10rem;
+    margin-top: 56px;
+  background:  rgb(238, 230, 159);;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  
+   color:white ;
+}
+#welcome{
+    color:#f58d1e;
+    text-align: center;
+    
+
+
+}
+
+.stats {
+  display: flex;
+  gap: 20px;
+  font-size: 1.2em;
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company {
+  position: flex;
+  left: 2rem;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+button {
+  background:  #f58d1e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#news{
+    color: rgb(28, 29, 25);
+}
+.box{
+  position: relative;
+  bottom: 10rem;
+    display: flex;
+    background-color: rgb(238, 230, 159);
+    width: 300px;
+    height: 100px;
+    border-radius: 5%;
+    margin-top: 30px ;
+    padding-left: 35px;
+    padding-top: 55px;
+    margin-bottom: 30px;
+  
+    
+}
+#text{
+    color: #3a3131;
+  
+    
+}
+#totalEnrolled{
+    color: #373c43;
+    padding-right: 30px;
+    padding-top: 26px;
+}
+#totalPlaced{
+    color:#303235;
+    
+    padding-top: 25px;
+}
+#about{
+  position: relative;
+    color: #1b1c1d;
+    background-color: rgb(238, 230, 159);;
+    width:330px;
+    padding: 5px;
+    line-height: 8rem;
+
+
+}
+#abouttext{
+  position: relative;
+  bottom: 6rem;
+    color:black;
+}
+#registerBtn{
+  background: #f58d1e;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.hidden {
+
+  display: none;
+}
+
+#successMessage {
+  color: rgb(37, 157, 37);
+  margin-top: 15px;
+  font-weight: bold;
+}
+.notice{
+color: #000;
+}
+.container{
+  background-color: #fff;
+  padding: 20px;
+  width: 700px; 
+  height: 70px;
+  border-radius: 2rem;
+   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
+   position: relative;left: 5rem;top: 3rem;
+
+}
+.session1{
+    background-color: #fff;
+  padding: 20px;
+  width: 600px; 
+  height: 350px;
+  border-radius: 2rem;
+   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
+   position: relative;
+  left: 8rem;
+   top: 3rem;
+}
+.session2{
+    background-color: #fff;
+  padding: 20px;
+  width: 600px; 
+  height: 350px;
+  border-radius: 2rem;
+   box-shadow: rgba(50 ,50,93,0.25)0px 6px 12px -2px;
+   position: relative;
+  left: 50rem;
+   bottom: 21rem;
+}
